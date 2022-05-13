@@ -73,10 +73,10 @@ body header .middle button {
   color: white;
   background-color: #F32853;
   border: none;
-  padding: 25px 45px;
+  padding: 15px 20px;
   border-radius: 5px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -115,6 +115,7 @@ body .second .second-two {
   width: 20%;
 }
 body .third {
+  background-color: #ebebeb !important;
   display: flex;
   flex-direction: column;
   background-color: white;
@@ -135,20 +136,298 @@ body .third .third-h2 p {
   text-transform: uppercase;
 }
 body .card {
+  background-color: #ebebeb !important;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   text-align: center;
-  padding: 30px 0;
+  padding: 50px 0;
   gap: 20px;
   background: white;
+  position: relative;
 }
 body .card .cards {
-  padding: 25px 0;
+  background-color: white;
+  object-fit: cover;
+  box-shadow: 0px -3px 5px #a6a6a6;
+  margin-bottom: 0px 0px;
+}
+body .card .cards h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #252732;
+  font-size: 18px;
+  padding: 25px;
 }
 body .card .cards img {
   width: 100%;
+}
+body .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20vh;
+  gap: 10px;
+}
+body .btn .btn-01 {
+  color: white;
+  background-color: #F32853;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+body .btn .btn-02 {
+  color: white;
+  background-color: #252732;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+body .four {
+  background-color: white;
+  width: 100%;
+  padding: 40px 0px;
+}
+body .four .four-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 40%;
+}
+body .four .four-title h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: #4B5364;
+  text-transform: uppercase;
+}
+body .four .four-title p {
+  color: lightgrey;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+body .circle {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+body .circle .circled {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+body .circle .circled .circled-txt {
+  text-align: end;
+  flex-direction: column;
+  margin: 0 30px;
+}
+body .circle .circled .circled-txt h5 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 25px;
+}
+body .circle .circled .circled-txt h6 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  color: #d4d4d4;
+}
+body .circle .circled .circled-txt p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #4B5364;
+}
+body .circle .circled img {
+  border-radius: 50%;
+  border: 1vh solid lightgrey;
+}
+body .circle .circled-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+body .circle .circled-2 .circled-txt2 {
+  text-align: start;
+  flex-direction: column;
+  margin: 0 30px;
+}
+body .circle .circled-2 .circled-txt2 h5 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 25px;
+}
+body .circle .circled-2 .circled-txt2 h6 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  color: #d4d4d4;
+}
+body .circle .circled-2 .circled-txt2 p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #4B5364;
+}
+body .circle .circled-2 img {
+  border-radius: 50%;
+  border: 1vh solid lightgrey;
+}
+body .circle2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+body .circle2 .circled {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+body .circle2 .circled .circled-txt {
+  text-align: end;
+  flex-direction: column;
+  margin: 0 30px;
+}
+body .circle2 .circled .circled-txt h5 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 25px;
+}
+body .circle2 .circled .circled-txt h6 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  color: #d4d4d4;
+}
+body .circle2 .circled .circled-txt p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #4B5364;
+}
+body .circle2 .circled img {
+  border-radius: 50%;
+  border: 1vh solid lightgrey;
+}
+body .circle2 .circled-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+body .circle2 .circled-2 .circled-txt2 {
+  text-align: start;
+  flex-direction: column;
+  margin: 0 30px;
+}
+body .circle2 .circled-2 .circled-txt2 h5 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 25px;
+}
+body .circle2 .circled-2 .circled-txt2 h6 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  color: #d4d4d4;
+}
+body .circle2 .circled-2 .circled-txt2 p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #4B5364;
+}
+body .circle2 .circled-2 img {
+  border-radius: 50%;
+  border: 1vh solid lightgrey;
+}
+body .five {
+  position: relative;
+  background-color: rgba(38, 38, 41, 0.2274509804);
+  top: 0;
+  width: 100%;
+  height: 45vh;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: white;
+  overflow-y: hidden;
+}
+body .five .imgfoot {
+  opacity: 0.2;
+  object-fit: cover;
+  width: 100%;
+  position: absolute;
+  top: -140%;
+}
+body .five .five-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  padding: 100px 0px;
+}
+body .five .five-txt h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+body .five .five-txt p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: lightgrey;
+  margin-top: 10px;
+}
+body .five .five-txt button {
+  color: white;
+  background-color: #F32853;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+body .footer {
+  height: 40vh;
+  width: 100%;
+  background-color: #d4d4d4;
+}
+body .footer .icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 40px;
+  width: 100%;
+}
+body .footer .icons .icon {
+  display: flex;
+  justify-content: space-evenly;
+  width: 20%;
+}
+body .footer .icons .fa-brands {
+  font-size: 50px;
+  color: #4B5364;
+}
+body .footer .ftxt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+body .footer .ftxt p {
+  font-family: lato;
+  font-size: 15px;
+  color: #4B5364;
 }
 
 /*# sourceMappingURL=style.css.map */
