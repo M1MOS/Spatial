@@ -440,15 +440,13 @@
     justify-content: center;
     align-items: center;
     gap: 0px;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
   }
   body .footer .ftxt p {
     font-family: lato;
     font-size: 15px;
     color: #4B5364;
-    border-bottom: 1px solid lightgrey;
-    width: 10%;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -871,7 +869,7 @@
     font-weight: bold;
   }
   body .footer {
-    height: 40vh;
+    height: 45vh;
     width: 100%;
     background-color: #d4d4d4;
   }
