@@ -429,5 +429,10 @@ body .footer .ftxt p {
   font-size: 15px;
   color: #4B5364;
 }
+body .footer .ftxt p:nth-of-type(2) {
+  border-left: 1px solid darkgrey;
+  border-right: 1px solid darkgrey;
+  padding: 0px 7px;
+}
 
 /*# sourceMappingURL=style.css.map */
