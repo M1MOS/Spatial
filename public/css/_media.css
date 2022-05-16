@@ -432,7 +432,7 @@
     width: 20%;
   }
   body .footer .icons .fa-brands {
-    font-size: 50px;
+    font-size: 40px;
     color: #4B5364;
   }
   body .footer .ftxt {
@@ -441,10 +441,11 @@
     align-items: center;
     flex-direction: row;
     text-align: center;
+    gap: 6px;
   }
   body .footer .ftxt p {
     font-family: lato;
-    font-size: 15px;
+    font-size: 13px;
     color: #4B5364;
   }
 }
@@ -570,6 +571,9 @@
     display: flex;
     flex-direction: column;
     width: 80%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
   body .second .second-two p {
     font-size: 12px;
