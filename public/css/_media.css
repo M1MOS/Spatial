@@ -496,13 +496,14 @@
     width: 38%;
     line-height: 1rem;
     margin: 0 auto;
+    justify-content: center;
+    align-items: center;
   }
   body header .navone .navbar ul {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    padding-right: 46px;
   }
   body header .navone .navbar ul li {
     font-family: Arial, Helvetica, sans-serif;
